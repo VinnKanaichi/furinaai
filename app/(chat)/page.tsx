@@ -16,7 +16,7 @@ export default async function Page() {
 
   const id = generateUUID();
 
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const modelIdFromCookie = cookieStore.get('chat-model');
 
   const chatModel = modelIdFromCookie?.value || DEFAULT_CHAT_MODEL;
