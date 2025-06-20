@@ -1,0 +1,3 @@
+# furinaai
+
+Created via bot.
